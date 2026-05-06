@@ -1,10 +1,10 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import authRoute from "./routes/auth.js";
-import productRoute from "./routes/products.js";
+import authRoute from "../routes/auth.js";
+import productRoute from "../routes/products.js";
 import cors from "cors";
-import auth from "./middleware/auth.js";
+import auth from "../middleware/auth.js";
 
 dotenv.config();
 let app = express();
